@@ -60,7 +60,9 @@ namespace Taschenrechner
 
         private void BtnDiv_Click(object sender, EventArgs e)
         {
-
+            double Zahl1 = Convert.ToInt32(tbxZahl1.Text);
+            double Zahl2 = Convert.ToInt32(tbxZahl2.Text);
+            tbxErgebniss.Text = Convert.ToString(Zahl1 / Zahl2);
         }
     }
 }
